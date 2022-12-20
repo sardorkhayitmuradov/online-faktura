@@ -1,0 +1,45 @@
+.button {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #2b63c0;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 24px;
+}
+
+.button-img {
+  margin-right: 10px;
+}
+
+.cancel-button {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #fe346e;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 24px;
+}
+
+.success-button {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #0FBE7B;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 24px;
+}

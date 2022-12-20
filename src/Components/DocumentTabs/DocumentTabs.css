@@ -1,0 +1,24 @@
+
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.nav li {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #303030;
+  background: #ffffff;
+  box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.04);
+  padding: 12px 40px;
+  cursor: pointer;
+}
+
+.active {
+    color: #2B63C0 !important;
+    box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.04), inset 0px -2px 0px #2B63C0  !important  ;
+}

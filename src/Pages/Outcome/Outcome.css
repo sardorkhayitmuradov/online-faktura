@@ -1,0 +1,129 @@
+.outcome-container {
+    padding: 0 60px;
+}
+
+.sum-title span,
+.sum-title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  margin-bottom: 24px;
+}
+
+.sum  , .sum-status{
+  max-width: 640px;
+  width: 100%;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+}
+
+.sum-status {
+    max-width: 448px;
+}
+
+.sum , .sum-status{
+  font-family: 'Roboto';
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.sum-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #2b63c0;
+}
+
+.sum-number {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+}
+
+.sum-tel {
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #0FBE7B;
+margin-bottom: 17px;
+}
+
+.messenger {
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+margin-right: 12px;
+}
+
+.messenger-info {
+    width: 233px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #303030;
+}
+
+.sum-date {
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+
+}
+
+.sum-dates , .status-top {
+    display: flex;
+    align-items: center;
+}
+
+.sum-dates span {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #303030;
+margin-left: auto;
+}
+
+.sum-btns {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.sum-text{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: auto;
+    color: #2B63C0 !important;
+}
+
+.top-title  {
+    font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #303030;
+}
+
+.sum-status p {
+    font-weight: 700;
+font-size: 14px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #FFA41D;
+}
+
+.status-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 105px;
+    gap: 12px;
+}

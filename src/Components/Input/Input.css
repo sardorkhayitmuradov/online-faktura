@@ -1,0 +1,72 @@
+input {
+  height: 48px;
+  background: #ffffff;
+  border: 0.5px solid #d9d9d9;
+  border-radius: 8px;
+  /* border: none; */
+  padding: 12px;
+  width: 100%;
+  outline: none;
+}
+input:required {
+  border-color: red !important;
+  border-width: 3px !important;
+}
+
+label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input[type='date']::-webkit-inner-spin-button,
+input[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type='date']::before {
+  color: #999999;
+  content: attr(placeholder);
+}
+input[type='date'] {
+  color: #ffffff;
+}
+input[type='date']:focus,
+input[type='date']:valid {
+  color: #666666;
+}
+input[type='date']:focus::before,
+input[type='date']:valid::before {
+  content: '' !important;
+}
+
+input[type='checkbox'] {
+  background: #ffffff;
+  bottom: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+/* ::-webkit-datetime-edit-month-field::placeholder {
+  font-family: 'Roboto' !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8c8c8c;
+}
+::-webkit-datetime-edit-day-field {
+  color: green;
+}
+::-webkit-datetime-edit-year-field {
+  color: purple;
+} */

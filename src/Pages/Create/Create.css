@@ -1,0 +1,108 @@
+.create {
+  width: 100%;
+  margin-top: auto;
+  background-color: #f8fafc;
+}
+
+.create-container {
+  padding: 0px 32px;
+  margin-top: 130px;
+  margin-bottom: 52px;
+}
+
+.create-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+}
+
+.user-title {
+  margin-bottom: 16px;
+}
+
+.create-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.create-input,
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.contract-user-info select {
+  margin-bottom: 24px;
+}
+
+.info,
+.user-top-info {
+  display: flex;
+  gap: 32px;
+}
+
+.user-top-info {
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.user-toggle {
+  display: flex;
+  gap: 12px;
+}
+
+.user-toggle p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8c8c8c;
+}
+
+.contract-upload , .Sum  ,.Sum div , .pw-attorney-inputs{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.excel {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.Sum {
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.Sum div {
+
+  align-items: flex-start;
+}
+
+
+.pw-attorney {
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pw-attorney-inputs{
+
+  justify-content: space-between;
+}
+
+.footer-inputs {
+  display: flex;
+  justify-content: space-between;
+}

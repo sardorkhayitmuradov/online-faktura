@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  max-width: 464px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-left: auto;
+  padding-right: 60px;
+}
+
+.prev{
+  margin-right: 50px;
+}
+
+.next {
+  margin-left: 60px;
+}
+
+.page-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 111.63%;
+  text-align: center;
+  width: 24px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.paginationActive {
+  color: #2b63c0;
+}

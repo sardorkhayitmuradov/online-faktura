@@ -1,0 +1,15 @@
+.status-info {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #303030;
+  margin-top: 7px;
+  margin-right: 16px;
+}
